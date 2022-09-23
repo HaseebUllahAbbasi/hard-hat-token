@@ -1,0 +1,28 @@
+{
+  "name": "hard-hat-token",
+  "version": "1.0.0",
+  "description": "soon, will be added",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaseebUllahAbbasi/hard-hat-token.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaseebUllahAbbasi/hard-hat-token/issues"
+  },
+  "homepage": "https://github.com/HaseebUllahAbbasi/hard-hat-token#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.7.1",
+    "hardhat": "^2.11.2"
+  }
+}
