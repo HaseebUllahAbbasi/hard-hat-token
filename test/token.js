@@ -42,5 +42,16 @@ describe("Token Contract ", function () {
       ).to.be.revertedWith("Not Enough Amount"); // should be same from the contract and string
       expect(await hardhatToken.balanceOf(owner.address)).to.equal(initValance);
     });
+    it("Should Update balances after the transactions ", async function () {});
+    const initBalance = await hardhatToken.balanceOf(owner.address);
+    await hardhatToken.transfer(addr1.address, 5);
+    await hardhatToken.transfer(addr2.address, 10);
+    const finalBalance = await hardhatToken.balanceOf(owner.address);
+    expect(finalBalance).to.equal(initBalance - 15);
+
+    const addr1Balance = await hardhatToken.balanceOf(addr1.address);
+    const addr2Balance = await hardhatToken.balanceOf(addr2.address);
+    expect(addr1Balance).to.equal(5);
+    expect(addr2Balance).to.equal(10);
   });
 });
