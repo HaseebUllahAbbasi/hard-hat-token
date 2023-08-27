@@ -4,7 +4,10 @@
   "description": "soon, will be added",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy:local": "npx hardhat run ./scripts/deploy.js ",
+    "deploy": "npx hardhat run ./scripts/deploy.js --network goerli"
   },
   "repository": {
     "type": "git",
@@ -24,5 +27,8 @@
     "ethereum-waffle": "^3.4.4",
     "ethers": "^5.7.1",
     "hardhat": "^2.11.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
   }
 }

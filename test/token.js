@@ -24,7 +24,7 @@ describe("Token Contract ", function () {
   });
 
   describe("Transaction", async function () {
-    it("Should transfer token betwewn accounts", async function () {
+    it("Should transfer token between accounts", async function () {
       await hardhatToken.transfer(addr1.address, 5);
       const addr1Balance = await hardhatToken.balanceOf(addr1.address);
 

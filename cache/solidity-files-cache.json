@@ -1,9 +1,9 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "C:\\Users\\Sk\\Documents\\hard-hat-token\\contracts\\Token.sol": {
-      "lastModificationDate": 1664144687859,
-      "contentHash": "a8350fc17502f007a3b284232fbf3581",
+    "/home/haseeb/hard-hat-token/contracts/Token.sol": {
+      "lastModificationDate": 1693150834788,
+      "contentHash": "2b8a18e6233d211b885e2799c3414101",
       "sourceName": "contracts/Token.sol",
       "solcConfig": {
         "version": "0.8.9",
@@ -38,8 +38,8 @@
         "Token"
       ]
     },
-    "C:\\Users\\Sk\\Documents\\hard-hat-token\\node_modules\\hardhat\\console.sol": {
-      "lastModificationDate": 1663959237362,
+    "/home/haseeb/hard-hat-token/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1693150665158,
       "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
       "sourceName": "hardhat/console.sol",
       "solcConfig": {
